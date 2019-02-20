@@ -105,6 +105,7 @@ main(int argc, char *argv[]) {
                                 len = read(in, buf, BUFSIZE);
                                 if (len == 0) break;
                         }
+			
                 writelog(200);
 		continue
            }    
