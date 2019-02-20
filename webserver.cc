@@ -1,5 +1,4 @@
 //Nick Nowak 
-//found in my gists from two years ago
 
 #include <iostream>             // cout, cerr, etc
 #include <stdio.h>              // perror
