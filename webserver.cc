@@ -107,6 +107,6 @@ main(int argc, char *argv[]) {
                         }
 			
                 writelog(200);
-		continue
+		continue;
            }    
 }
