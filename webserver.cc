@@ -31,6 +31,7 @@ main(int argc, char *argv[]) {
         s = MakeServerSocket(argv[1]);
 
         while (1) {
+		// Form connection
                 struct sockaddr_in sa;
                 int sa_len = sizeof(sa);
                 int fd = accept(s, (struct sockaddr *)&sa, (unsigned int *)&sa_len);
